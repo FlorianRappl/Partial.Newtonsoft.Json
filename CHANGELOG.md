@@ -1,4 +1,4 @@
-# Newtonsoft.Json.Partial Changelog
+# Partial.Newtonsoft.Json Changelog
 
 ## 0.1.0
 

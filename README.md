@@ -1,8 +1,9 @@
-# Newtonsoft.Json.Partial
+# Partial.Newtonsoft.Json
 
-[![GitHub Tag](https://img.shields.io/github/tag/FlorianRappl/Newtonsoft.Json.Partial.svg?style=flat-square)](https://github.com/FlorianRappl/Newtonsoft.Json.Partial/releases)
-[![NuGet Count](https://img.shields.io/nuget/dt/Newtonsoft.Json.Partial.svg?style=flat-square)](https://www.nuget.org/packages/Newtonsoft.Json.Partial/)
-[![Issues Open](https://img.shields.io/github/issues/FlorianRappl/Newtonsoft.Json.Partial.svg?style=flat-square)](https://github.comFlorianRappl/Newtonsoft.Json.Partial/issues)
+[![Build Status](https://florianrappl.visualstudio.com/Partial.Newtonsoft.Json/_apis/build/status/Partial.Newtonsoft.Json-CI?branchName=master)](https://florianrappl.visualstudio.com/Partial.Newtonsoft.Json/_build/latest?definitionId=6&branchName=master)
+[![GitHub Tag](https://img.shields.io/github/tag/FlorianRappl/Partial.Newtonsoft.Json.svg?style=flat-square)](https://github.com/FlorianRappl/Partial.Newtonsoft.Json/releases)
+[![NuGet Count](https://img.shields.io/nuget/dt/Partial.Newtonsoft.Json.svg?style=flat-square)](https://www.nuget.org/packages/Partial.Newtonsoft.Json/)
+[![Issues Open](https://img.shields.io/github/issues/FlorianRappl/Partial.Newtonsoft.Json.svg?style=flat-square)](https://github.comFlorianRappl/Partial.Newtonsoft.Json/issues)
 
 A small helper library to allow deserialization (and serialization) of JSON fragments. Helpful for `PATCH` or partial `PUT` operations in web API projects.
 
@@ -11,12 +12,14 @@ A small helper library to allow deserialization (and serialization) of JSON frag
 Install the library via NuGet. All you need to do is manage your NuGet packages via Visual Studio or run
 
 ```sh
-nuget install Newtonsoft.Json.Partial
+nuget install Partial.Newtonsoft.Json
 ```
 
 in the package manager command line. Alternatively, you can install the library via the command line using the `dotnet` tooling.
 
 ## Usage
+
+:warning::warning: **The namespace of this project is `Newtonsoft.Json.Partial`.** :warning::warning:
 
 The main class is called `Part<T>`. This class is a wrapper that should be used for deserializing objects with information about the used keys.
 

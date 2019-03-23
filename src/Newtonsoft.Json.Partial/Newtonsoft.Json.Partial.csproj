@@ -7,13 +7,15 @@
     <Authors>Florian Rappl</Authors>
     <Company>Florian Rappl</Company>
     <Description>Extensions for Newtonsoft.Json to support JSON fragments.</Description>
-    <RepositoryUrl>https://github.com/FlorianRappl/Newtonsoft.Json.Partial</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/FlorianRappl/Newtonsoft.Json.Partial</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FlorianRappl/Partial.Newtonsoft.Json</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/FlorianRappl/Partial.Newtonsoft.Json</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>json,newtonsoft,partial</PackageTags>
-    <PackageLicenseUrl>https://github.com/FlorianRappl/Newtonsoft.Json.Partial/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/FlorianRappl/Partial.Newtonsoft.Json/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright 2019, Florian Rappl</Copyright>
-    <PackageReleaseNotes>https://github.com/FlorianRappl/Newtonsoft.Json.Partial/blob/master/CHANGELOG.md</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/FlorianRappl/Partial.Newtonsoft.Json/blob/master/CHANGELOG.md</PackageReleaseNotes>
+    <PackageId>Partial.Newtonsoft.Json</PackageId>
+    <Product>Partial.Newtonsoft.Json</Product>
   </PropertyGroup>
 
   <ItemGroup>
