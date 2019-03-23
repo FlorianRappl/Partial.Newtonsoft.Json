@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>Florian Rappl</Authors>
+    <Company>Florian Rappl</Company>
+    <Description>Extensions for Newtonsoft.Json to support JSON fragments.</Description>
+    <RepositoryUrl>https://github.com/FlorianRappl/Newtonsoft.Json.Partial</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/FlorianRappl/Newtonsoft.Json.Partial</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>json,newtonsoft,partial</PackageTags>
+    <PackageLicenseUrl>https://github.com/FlorianRappl/Newtonsoft.Json.Partial/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Copyright 2019, Florian Rappl</Copyright>
+    <PackageReleaseNotes>https://github.com/FlorianRappl/Newtonsoft.Json.Partial/blob/master/CHANGELOG.md</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
